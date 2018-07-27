@@ -10,3 +10,17 @@ $margin  : $spacing;
         margin:  $margin $margin*2;
     }
 }
+
+%padding{
+    padding: $padding;
+    @include break(){
+        padding: $padding $padding*2;
+    }
+}
+
+%margin{
+    margin:  $margin;
+    @include break(){
+        margin:  $margin $margin*2;
+    }
+}

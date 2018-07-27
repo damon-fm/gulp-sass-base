@@ -9,11 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/damon-fm/gulp-sass-base"
   },
   "author": "sloppy_d",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
+    "autoprefixer": "^9.0.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -33,7 +34,6 @@
     "stylelint": "^8.4.0"
   },
   "dependencies": {
-    "autoprefixer": "^9.0.1",
     "jshint": "^2.9.5"
   }
 }

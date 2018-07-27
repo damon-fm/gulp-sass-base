@@ -1,9 +1,13 @@
 .tout{
-    @extend %spacing;
+    @extend %padding;
+
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 
     &__flex{
         display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }

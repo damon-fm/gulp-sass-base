@@ -1,21 +1,7 @@
 .container {
-    @extend %spacing;
     display: block;
     max-width: $w-container;
     margin: 0 auto;
-
-
-
-  @include break(){
-    background-color: $bg-color;
-  }
-  &.box {
-    // background-color: $green;
-    // padding: .4;
-    &.wrapper {
-      // background-color: $yellow;
-    }
-  }
 }
 
 .container__flex{
@@ -23,4 +9,5 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    max-width: $w-container;
 }
