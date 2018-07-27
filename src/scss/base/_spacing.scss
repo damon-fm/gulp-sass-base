@@ -1,0 +1,12 @@
+$spacing : 20px;
+$padding : $spacing;
+$margin  : $spacing;
+
+%spacing{
+    padding: $padding;
+    margin:  $margin;
+    @include break(){
+        padding: $padding $padding*2;
+        margin:  $margin $margin*2;
+    }
+}

@@ -1,0 +1,18 @@
+/*
+This file is been made to give you an example of what kind of files should
+be placed in this componets folder
+*/
+.btn {
+  padding: 0 25px;
+  margin: $margin;
+  height: 44px;
+  line-height: 44px;
+  &__main {
+    background-color: $main-color;
+    color: white;
+  }
+  &__secondary {
+    background-color: transparent;
+    color: $main-color;
+  }
+}

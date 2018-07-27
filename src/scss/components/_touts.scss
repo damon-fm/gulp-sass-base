@@ -1,0 +1,9 @@
+.tout{
+    @extend %spacing;
+
+    &__flex{
+        display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+    }
+}
